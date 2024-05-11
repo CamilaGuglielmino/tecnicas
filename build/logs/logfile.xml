@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="C:\xampp\htdocs\cg\phpunit.xml.dist" tests="5" assertions="4" errors="2" failures="0" skipped="0" time="0.012309">
+    <testsuite name="App" tests="5" assertions="4" errors="2" failures="0" skipped="0" time="0.012309">
+      <testsuite name="ExampleDatabaseTest" file="C:\xampp\htdocs\cg\tests\database\ExampleDatabaseTest.php" tests="2" assertions="0" errors="2" failures="0" skipped="0" time="0.000000">
+        <testcase name="testModelFindAll" file="C:\xampp\htdocs\cg\tests\database\ExampleDatabaseTest.php" line="17" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" assertions="0" time="0.000000">
+          <error type="CodeIgniter\Database\Exceptions\DatabaseException">ExampleDatabaseTest::testModelFindAll&#13;
+CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.&#13;
+Main connection [SQLite3]: Class "SQLite3" not found
+&#13;
+C:\xampp\htdocs\cg\system\Database\BaseConnection.php:457
+C:\xampp\htdocs\cg\system\Database\SQLite3\Connection.php:60
+C:\xampp\htdocs\cg\system\Test\DatabaseTestTrait.php:82
+C:\xampp\htdocs\cg\system\Test\DatabaseTestTrait.php:58
+C:\xampp\htdocs\cg\system\Test\CIUnitTestCase.php:251</error>
+        </testcase>
+        <testcase name="testSoftDeleteLeavesRow" file="C:\xampp\htdocs\cg\tests\database\ExampleDatabaseTest.php" line="28" class="ExampleDatabaseTest" classname="ExampleDatabaseTest" assertions="0" time="0.000000">
+          <error type="CodeIgniter\Database\Exceptions\DatabaseException">ExampleDatabaseTest::testSoftDeleteLeavesRow&#13;
+CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.&#13;
+Main connection [SQLite3]: Class "SQLite3" not found
+&#13;
+C:\xampp\htdocs\cg\system\Database\BaseConnection.php:457
+C:\xampp\htdocs\cg\system\Database\SQLite3\Connection.php:60
+C:\xampp\htdocs\cg\system\Test\DatabaseTestTrait.php:82
+C:\xampp\htdocs\cg\system\Test\DatabaseTestTrait.php:58
+C:\xampp\htdocs\cg\system\Test\CIUnitTestCase.php:251</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="ExampleSessionTest" file="C:\xampp\htdocs\cg\tests\session\ExampleSessionTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.003534">
+        <testcase name="testSessionSimple" file="C:\xampp\htdocs\cg\tests\session\ExampleSessionTest.php" line="11" class="ExampleSessionTest" classname="ExampleSessionTest" assertions="1" time="0.003534"/>
+      </testsuite>
+      <testsuite name="HealthTest" file="C:\xampp\htdocs\cg\tests\unit\HealthTest.php" tests="2" assertions="3" errors="0" failures="0" skipped="0" time="0.008775">
+        <testcase name="testIsDefinedAppPath" file="C:\xampp\htdocs\cg\tests\unit\HealthTest.php" line="13" class="HealthTest" classname="HealthTest" assertions="1" time="0.001255"/>
+        <testcase name="testBaseUrlHasBeenSet" file="C:\xampp\htdocs\cg\tests\unit\HealthTest.php" line="18" class="HealthTest" classname="HealthTest" assertions="2" time="0.007520"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
