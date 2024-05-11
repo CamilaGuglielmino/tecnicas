@@ -4,21 +4,21 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 
-class Usuario extends BaseController
+
+class Noticias extends BaseController
 {
-  
+    
     public function index()
     {
-        //
+        return view('noticias/index');
     }
 
- 
+    
     public function show($id = null)
     {
         //
     }
 
-    
     public function new()
     {
         //
@@ -36,12 +36,13 @@ class Usuario extends BaseController
         //
     }
 
-   
+    
     public function update($id = null)
     {
         //
     }
 
+    
     public function delete($id = null)
     {
         //

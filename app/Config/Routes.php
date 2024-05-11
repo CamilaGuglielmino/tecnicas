@@ -7,6 +7,8 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 
+$routes->get('noticias', 'Noticias::index');
+
 
 //$routes->resource('usuario', ['placeholder' => '(:num)', 'except' => 'show']);
 
